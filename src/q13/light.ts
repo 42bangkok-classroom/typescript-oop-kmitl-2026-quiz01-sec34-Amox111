@@ -11,5 +11,5 @@ switch (light.toLocaleLowerCase()){
         console.log("Go");
         break;
     default:
-        console.log("Unknow");
+        console.log("Unknown");
 }
