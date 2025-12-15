@@ -15,7 +15,7 @@ Write a program that:
 $ ts-node hasAt.ts hello@example.com
 Has @
 $ ts-node hasAt.ts hello
-No @
+hello
 $ ts-node hasAt.ts test@
 Has @
 $ ts-node hasAt.ts @test
