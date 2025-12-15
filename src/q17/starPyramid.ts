@@ -1,6 +1,7 @@
-const star = parseInt(process.argv[2]);
+const s = Number(process.argv[2]);
 
-if (isNaN(star)) process.exit();
+if (isNaN(s)) process.exit();
 
-for (let i = 1; i <= star; i++) {
+for (let i = 1; i <= s; i++) {
   console.log("*".repeat(i));
+}
