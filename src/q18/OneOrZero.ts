@@ -1,6 +1,6 @@
 const numm = Number(process.argv[2]);
 
-if (isNaN(numm)){
+if (!isNaN(numm)){
     for (let i = 0; i < numm; i++)
         if(i % 2 === 0){
             console.log("1".repeat(numm));
